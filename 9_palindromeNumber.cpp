@@ -38,21 +38,17 @@ bool isPalindrome(int x) {
                 // Adjust the length of the word
                 length = number.length();
 
-                cout << "true";
-                cout << "Number: " << number;
-                cout << "Length: " << length;
-                return true;
-
             } else {
 
-                cout << "false";
+                // It's not a palindrome
                 return false;
+                break;
+
             }
 
         }
     }
     
-    cout << "true";
     return true;
 }
 
@@ -68,13 +64,3 @@ int main()
 }
 
 
-
-
-
-
-// class Solution {
-// public:
-//     bool isPalindrome(int x) {
-        
-//     }
-// };

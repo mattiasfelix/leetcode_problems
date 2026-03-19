@@ -53,10 +53,7 @@ bool isPalindrome(int x) {
 }
 
 
-
-
-int main()
-{
+int main() {
 
     isPalindrome(1000021);
 

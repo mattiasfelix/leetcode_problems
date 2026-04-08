@@ -13,7 +13,7 @@ using namespace std;
 
 vector<int> twoSum(vector<int>& nums, int target) {
         
-    vector<int> list = nums;
+    vector<int>& list = nums;
 
     return list;
 }
@@ -21,7 +21,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
 int main() {
 
     // Call the function
-    twoSum([2,7,11,15], 9);
+    twoSum([15,1], 9);
 
     return 0;
 }
